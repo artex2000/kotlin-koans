@@ -10,8 +10,8 @@ class _25_Comparison {
     }
 
     @Test fun testBefore() {
-        val first = MyDate(2014, 5, 10)
-        val second = MyDate(2014, 7, 11)
+        val first = MyDate(2014, 1, 1)
+        val second = MyDate(2014, 3, 22)
         assertTrue("The date ${first.s} should be before ${second.s}", first < second)
     }
 
